@@ -1,0 +1,149 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.star-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  line-height: 1;
+}
+
+.star-rating .star-filled,
+.interactive-star-rating .star-filled {
+  fill: var(--gold-accent, #d97706);
+  stroke: var(--gold-accent, #d97706);
+}
+
+.star-rating .star-empty,
+.interactive-star-rating .star-empty {
+  fill: none;
+  stroke: var(--border-color, #cbd5e1);
+  opacity: 0.65;
+}
+
+.star-rating .star,
+.interactive-star-rating .star {
+  stroke-width: 1.5;
+}
+
+.interactive-star-rating__btn {
+  color: transparent;
+}
+
+.check-icon .icon {
+  width: 40px;
+  height: 40px;
+  stroke-width: 2.5;
+}
+
+.feature-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  background: var(--primary-light, #ccfbf1);
+  color: var(--primary, #0d9488);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--primary-light, #ccfbf1);
+  color: var(--primary, #0d9488);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.footer-contact-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+.footer-contact-line .icon {
+  margin-top: 3px;
+  color: var(--primary, #0d9488);
+}
+
+.admin-nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-nav a .icon {
+  opacity: 0.92;
+}
+
+.admin-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.payment-option span {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.booking-dates {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.room-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--primary-light, #ccfbf1);
+  color: var(--primary, #0d9488);
+}
+
+.panel-title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.panel-title-with-icon h3 {
+  margin: 0;
+}
+
+.facility-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hotel-stepper-num .icon {
+  display: block;
+}
+
+.detail-stars,
+.result-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}

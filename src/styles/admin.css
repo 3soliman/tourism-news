@@ -1,0 +1,596 @@
+.admin-seo-page {
+    min-height: 100%;
+    padding: 28px;
+    background: #f8fafc;
+    color: #0f172a;
+  }
+  
+  .admin-seo-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .admin-seo-eyebrow {
+    display: inline-flex;
+    margin-bottom: 8px;
+    color: #0284c7;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  
+  .admin-seo-header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  
+  .admin-seo-header p {
+    max-width: 680px;
+    margin: 8px 0 0;
+    color: #64748b;
+    line-height: 1.8;
+  }
+  
+  .admin-seo-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  
+  .admin-seo-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-seo-stat-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+  }
+  
+  .admin-seo-stat-icon {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    color: #0284c7;
+    background: #e0f2fe;
+  }
+  
+  .admin-seo-stat-card span {
+    display: block;
+    color: #64748b;
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  
+  .admin-seo-stat-card strong {
+    display: block;
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .admin-seo-stat-card.tone-good .admin-seo-stat-icon {
+    background: #dcfce7;
+    color: #166534;
+  }
+  
+  .admin-seo-stat-card.tone-warning .admin-seo-stat-icon {
+    background: #fef3c7;
+    color: #92400e;
+  }
+  
+  .admin-seo-workspace {
+    display: grid;
+    grid-template-columns: 360px minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .admin-seo-sidebar {
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .admin-seo-filter-card,
+  .admin-seo-editor,
+  .admin-seo-form-card,
+  .admin-seo-preview-card,
+  .admin-seo-issues-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+  }
+  
+  .admin-seo-filter-card {
+    padding: 16px;
+  }
+  
+  .admin-seo-filter-card label {
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  
+  .admin-seo-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 0 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    background: #ffffff;
+  }
+  
+  .admin-seo-search svg {
+    color: #94a3b8;
+    flex-shrink: 0;
+  }
+  
+  .admin-seo-search input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    color: #0f172a;
+    background: transparent;
+    font-size: 14px;
+  }
+  
+  .admin-seo-type-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  
+  .admin-seo-type-tabs button {
+    border: 0;
+    border-radius: 999px;
+    padding: 8px 12px;
+    color: #475569;
+    background: #f1f5f9;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s ease;
+  }
+  
+  .admin-seo-type-tabs button:hover,
+  .admin-seo-type-tabs button.is-active {
+    background: #e0f2fe;
+    color: #0284c7;
+  }
+  
+  .admin-seo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .admin-seo-list-item {
+    width: 100%;
+    text-align: start;
+    padding: 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .admin-seo-list-item:hover,
+  .admin-seo-list-item.is-active {
+    border-color: #7dd3fc;
+    background: #f0f9ff;
+    transform: translateY(-1px);
+  }
+  
+  .admin-seo-list-item__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .admin-seo-list-item strong {
+    color: #0f172a;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .admin-seo-list-item small {
+    display: block;
+    margin-top: 8px;
+    color: #94a3b8;
+    direction: ltr;
+    text-align: left;
+  }
+  
+  .admin-seo-list-item__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    color: #64748b;
+    font-size: 12px;
+  }
+  
+  .seo-status-badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  
+  .seo-status-badge.is-good {
+    background: #dcfce7;
+    color: #166534;
+  }
+  
+  .seo-status-badge.is-warning {
+    background: #fef3c7;
+    color: #92400e;
+  }
+  
+  .seo-status-badge.is-poor {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+  
+  .admin-seo-editor {
+    padding: 20px;
+    min-width: 0;
+  }
+  
+  .admin-seo-editor-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .admin-seo-editor-type {
+    display: inline-flex;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: #e0f2fe;
+    color: #0284c7;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  
+  .admin-seo-editor-header h2 {
+    margin: 0;
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .admin-seo-editor-header p {
+    margin: 8px 0 0;
+    color: #64748b;
+    direction: ltr;
+    text-align: left;
+  }
+  
+  .admin-seo-score {
+    width: 96px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .admin-seo-score svg {
+    width: 70px;
+    height: 70px;
+    transform: rotate(-90deg);
+  }
+  
+  .admin-seo-score-bg {
+    fill: none;
+    stroke: #e2e8f0;
+    stroke-width: 3;
+  }
+  
+  .admin-seo-score-fill {
+    fill: none;
+    stroke: #0ea5e9;
+    stroke-width: 3;
+    stroke-linecap: round;
+  }
+  
+  .admin-seo-score-fill.is-good {
+    stroke: #10b981;
+  }
+  
+  .admin-seo-score-fill.is-warning {
+    stroke: #f59e0b;
+  }
+  
+  .admin-seo-score-fill.is-poor {
+    stroke: #ef4444;
+  }
+  
+  .admin-seo-score strong {
+    display: block;
+    margin-top: -6px;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  
+  .admin-seo-score span {
+    display: block;
+    margin-top: 2px;
+    color: #94a3b8;
+    font-size: 12px;
+  }
+  
+  .admin-seo-locale-tabs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0;
+  }
+  
+  .admin-seo-locale-tabs button {
+    border: 0;
+    border-radius: 999px;
+    padding: 9px 14px;
+    background: #f1f5f9;
+    color: #475569;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .admin-seo-locale-tabs button.is-active {
+    background: #0ea5e9;
+    color: #ffffff;
+  }
+  
+  .admin-seo-locale-tabs .admin-seo-copy-btn {
+    margin-inline-start: auto;
+    background: #e0f2fe;
+    color: #0284c7;
+  }
+  
+  .admin-seo-editor-grid,
+  .admin-seo-bottom-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  
+  .admin-seo-form-card,
+  .admin-seo-preview-card,
+  .admin-seo-issues-card {
+    padding: 18px;
+  }
+  
+  .admin-seo-form-card h3,
+  .admin-seo-card-title h3 {
+    margin: 0;
+    color: #0f172a;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .admin-seo-field {
+    margin-top: 16px;
+  }
+  
+  .admin-seo-field-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .admin-seo-field-label label {
+    color: #334155;
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .admin-seo-field-label span {
+    color: #94a3b8;
+    font-size: 12px;
+  }
+  
+  .admin-seo-field-label span.is-over {
+    color: #ef4444;
+    font-weight: 800;
+  }
+  
+  .admin-seo-field input,
+  .admin-seo-field textarea {
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 11px 12px;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  
+  .admin-seo-field textarea {
+    resize: vertical;
+    line-height: 1.8;
+  }
+  
+  .admin-seo-field input:focus,
+  .admin-seo-field textarea:focus {
+    border-color: #0ea5e9;
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+  }
+  
+  .admin-seo-bottom-grid {
+    margin-top: 16px;
+  }
+  
+  .admin-seo-card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  
+  .admin-seo-card-title svg {
+    color: #0ea5e9;
+  }
+  
+  .google-preview-box {
+    direction: ltr;
+    text-align: left;
+    padding: 18px;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    background: #ffffff;
+  }
+  
+  .google-preview-url {
+    color: #166534;
+    font-size: 13px;
+  }
+  
+  .google-preview-box h4 {
+    margin: 6px 0;
+    color: #1d4ed8;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  
+  .google-preview-box p {
+    margin: 0;
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  
+  .admin-seo-issues-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .admin-seo-issue,
+  .admin-seo-success-state {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .admin-seo-issue.is-error {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+  
+  .admin-seo-issue.is-warning {
+    background: #fef3c7;
+    color: #92400e;
+  }
+  
+  .admin-seo-issue.is-info {
+    background: #e0f2fe;
+    color: #0369a1;
+  }
+  
+  .admin-seo-success-state {
+    background: #dcfce7;
+    color: #166534;
+    font-weight: 700;
+  }
+  
+  .admin-seo-empty {
+    padding: 40px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 20px;
+    color: #64748b;
+    background: #ffffff;
+    text-align: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .admin-seo-workspace {
+      grid-template-columns: 1fr;
+    }
+  
+    .admin-seo-sidebar {
+      position: static;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .admin-seo-page {
+      padding: 18px;
+    }
+  
+    .admin-seo-header {
+      flex-direction: column;
+    }
+  
+    .admin-seo-header-actions {
+      width: 100%;
+    }
+  
+    .admin-seo-header-actions .admin-btn {
+      flex: 1;
+    }
+  
+    .admin-seo-stats-grid,
+    .admin-seo-editor-grid,
+    .admin-seo-bottom-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .admin-seo-editor-header {
+      flex-direction: column;
+    }
+  
+    .admin-seo-score {
+      width: auto;
+    }
+  
+    .admin-seo-locale-tabs {
+      flex-wrap: wrap;
+    }
+  
+    .admin-seo-locale-tabs .admin-seo-copy-btn {
+      margin-inline-start: 0;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,120 @@
+/* Brand logo images (icon + full lockup) */
+
+.brand-logo {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+.brand-logo--full {
+  width: auto;
+  max-width: min(220px, 100%);
+  height: auto;
+}
+
+.logo-link--brand {
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-link--brand .logo-tagline {
+  margin-top: 2px;
+}
+
+.logo-link--brand.logo-link--compact {
+  gap: 8px;
+}
+
+.footer-brand-lockup {
+  margin-bottom: 12px;
+}
+
+.footer-brand-lockup .brand-logo--full {
+  max-width: 180px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.guest-mobile-drawer-head .brand-logo--full {
+  max-width: 150px;
+}
+
+.admin-brand-logo {
+  max-width: 148px;
+}
+
+.admin-app.admin-sidebar-collapsed .admin-brand-logo--full {
+  display: none;
+}
+
+.admin-brand-mark .brand-logo--icon {
+  border-radius: 10px;
+}
+
+.auth-brand-lockup--full {
+  margin-bottom: 8px;
+}
+
+.auth-brand-lockup--full .brand-logo--full {
+  max-width: 200px;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 32px rgba(2, 6, 23, 0.2);
+}
+
+.auth-card__brand .brand-logo--full {
+  max-width: 160px;
+}
+
+.auth-card__brand .brand-logo--icon {
+  border-radius: 14px;
+}
+
+.loading-experience__mark .brand-logo {
+  animation: loadingLogoPulse 2.4s ease-in-out infinite;
+}
+
+.loading-experience__mark--full {
+  width: auto;
+  height: auto;
+  padding: 10px 14px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid rgba(14, 165, 233, 0.18);
+  box-shadow: 0 18px 36px rgba(14, 165, 233, 0.16);
+}
+
+.invalid-hotel-brand .brand-logo--full {
+  max-width: 200px;
+  margin: 0 auto 16px;
+}
+
+.invalid-hotel-card {
+  text-align: center;
+}
+
+[dir="rtl"] .logo-link--brand,
+[dir="rtl"] .auth-brand-lockup--full,
+[dir="rtl"] .auth-card__brand {
+  flex-direction: row-reverse;
+}
+@media (max-width: 480px) {
+  .logo-link--brand .brand-logo--full {
+    display: none;
+  }
+
+  .logo-link--brand .brand-logo--icon {
+    display: block;
+  }
+}
+
+@media (min-width: 481px) {
+  .logo-link--brand .brand-logo--icon {
+    display: none;
+  }
+}
+

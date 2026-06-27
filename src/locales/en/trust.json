@@ -1,0 +1,85 @@
+{
+  "sectionTitle": "Trust & legal",
+  "privacy": "Privacy policy",
+  "terms": "Terms of use",
+  "cookies": "Cookie policy",
+  "cancellation": "Cancellation & refunds",
+  "faq": "FAQ",
+  "lastUpdated": "Last updated: {{date}}",
+  "cookieConsent": {
+    "ariaLabel": "Cookie notice",
+    "message": "We use cookies to improve your experience and remember preferences such as language and search settings. By continuing to use this site, you agree to our use of cookies as described in our Cookie policy.",
+    "accept": "Accept",
+    "learnMore": "Learn more"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "{{brand}} respects your privacy. This policy explains how we collect, use, and protect your personal data when you use our website and booking services.",
+      "s1Title": "Information we collect",
+      "s1Body": "We collect information you provide when creating an account, making a booking, or contacting us — including name, email, phone number, payment details, and stay preferences. We also collect technical data such as IP address, browser type, and usage analytics to improve our service.",
+      "s2Title": "How we use your data",
+      "s2Body": "Your data is used to process reservations, send booking confirmations, provide customer support, personalize your experience, and comply with legal obligations. We do not sell your personal information to third parties.",
+      "s3Title": "Data sharing",
+      "s3Body": "We share necessary booking details with hotels and payment providers to complete your reservation. All partners are required to handle data securely and only for the purpose of fulfilling your stay.",
+      "s4Title": "Your rights",
+      "s4Body": "You may request access, correction, or deletion of your personal data by contacting us. You can also withdraw marketing consent at any time.",
+      "s5Title": "Contact",
+      "s5Body": "For privacy-related questions, contact us at {{email}}."
+    },
+    "terms": {
+      "title": "Terms of use",
+      "intro": "By using {{brand}}, you agree to these terms. Please read them carefully before making a booking.",
+      "s1Title": "Service description",
+      "s1Body": "{{brand}} provides an online platform to search, compare, and book hotel accommodations. We act as an intermediary between guests and property owners.",
+      "s2Title": "Account responsibility",
+      "s2Body": "You are responsible for keeping your login credentials secure and for all activity under your account. You must provide accurate information when registering and booking.",
+      "s3Title": "Bookings & payments",
+      "s3Body": "A booking is confirmed only after you receive a confirmation reference. Prices shown are subject to availability and may include taxes and fees as displayed at checkout. Payment terms depend on the property and payment method selected.",
+      "s4Title": "Prohibited use",
+      "s4Body": "You may not use our platform for fraudulent bookings, unauthorized reselling, scraping, or any activity that harms other users or property partners.",
+      "s5Title": "Limitation of liability",
+      "s5Body": "{{brand}} is not liable for issues arising directly from the property's services, though we will assist in resolving disputes where possible."
+    },
+    "cookies": {
+      "title": "Cookie policy",
+      "intro": "This page explains how {{brand}} uses cookies and similar technologies on our website.",
+      "s1Title": "What are cookies?",
+      "s1Body": "Cookies are small text files stored on your device when you visit a website. They help the site remember your preferences and improve performance.",
+      "s2Title": "Cookies we use",
+      "s2Body": "We use essential cookies for login sessions and booking flow, analytics cookies to understand how visitors use our site, and preference cookies to remember language and search settings.",
+      "s3Title": "Managing cookies",
+      "s3Body": "You can control cookies through your browser settings. Disabling essential cookies may affect booking functionality.",
+      "s4Title": "Updates",
+      "s4Body": "We may update this policy periodically. Continued use of the site after changes constitutes acceptance."
+    },
+    "cancellation": {
+      "title": "Cancellation & refund policy",
+      "intro": "Cancellation rules vary by property and rate type. Always review the policy shown on the hotel page and at checkout before confirming.",
+      "s1Title": "Free cancellation",
+      "s1Body": "Some rates include free cancellation until a deadline shown at booking. If you cancel before that deadline, you will not be charged.",
+      "s2Title": "Non-refundable rates",
+      "s2Body": "Discounted or promotional rates may be non-refundable. These are clearly marked before payment.",
+      "s3Title": "Modifications",
+      "s3Body": "Date changes depend on availability and the property's policy. Contact support or manage your booking from My trips when possible.",
+      "s4Title": "Refunds",
+      "s4Body": "Approved refunds are returned to the original payment method within 5–14 business days, depending on your bank or card issuer.",
+      "s5Title": "No-shows",
+      "s5Body": "Failure to arrive without cancelling may result in a charge for the full stay according to the property's policy."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "intro": "Quick answers to common questions about booking with {{brand}}.",
+      "q1": "How do I make a booking?",
+      "a1": "Search for a destination and dates, choose a hotel and room, then complete checkout with your guest and payment details. You will receive a confirmation reference by email.",
+      "q2": "Can I cancel or change my booking?",
+      "a2": "Yes, subject to the property's cancellation policy. Go to My trips to view options or contact our support team for assistance.",
+      "q3": "Is my payment secure?",
+      "a3": "Yes. We use encrypted connections and trusted payment processors. Card details are not stored on our servers beyond what is required to complete the transaction.",
+      "q4": "When will I be charged?",
+      "a4": "This depends on the rate and property. Some bookings charge immediately; others charge at check-in. The payment terms are shown before you confirm.",
+      "q5": "How do I contact support?",
+      "a5": "Visit our Contact page or email {{email}}. Our team is available to help with bookings, changes, and general inquiries."
+    }
+  }
+}
